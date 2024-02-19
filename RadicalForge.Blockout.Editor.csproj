@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{85524DFB-F936-727F-130D-6D2A0D01B3DB}</ProjectGuid>
+    <ProjectGuid>{7F633034-3C5E-A187-F552-03D53BE248F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>RadicalForge.Blockout.Editor</AssemblyName>
@@ -56,34 +56,34 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Blockout\Editor\CommentExplorer.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorCommentsSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\ThemeDefinition.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutCommentSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorCameraAnchorSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\EditorHotkeysTracker.cs" />
-    <Compile Include="Assets\Blockout\Editor\CommentBoxSceneGUI.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorScopes.cs" />
-    <Compile Include="Assets\Blockout\Editor\AutoPrefabSelection.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorOthersSection.cs" />
     <Compile Include="Assets\Blockout\Editor\BockoutEditorSplashSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\CommentExplorerWindowTab.cs" />
-    <Compile Include="Assets\Blockout\Editor\EUIResourceManager.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorScalableObjectsSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSettings.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorHierarchyToolsSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorHelper.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\EditorObjExporter.cs" />
-    <Compile Include="Assets\Blockout\Editor\NotepadEditor.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutCommentSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSuggestedSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorScopes.cs" />
     <Compile Include="Assets\Blockout\Editor\BlockoutStaticFunctions.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorTransformSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\CommentBoxSceneGUI.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorHelper.cs" />
     <Compile Include="Assets\Blockout\Editor\BlockoutEditorAssetsSection.cs" />
-    <Compile Include="Assets\Blockout\Editor\CreateBlockoutPrefabWizzard.cs" />
     <Compile Include="Assets\Blockout\Editor\BlockoutDatabase.cs" />
     <Compile Include="Assets\Blockout\Editor\BlockoutEditorWindow.cs" />
+    <Compile Include="Assets\Blockout\Editor\AutoPrefabSelection.cs" />
+    <Compile Include="Assets\Blockout\Editor\NotepadEditor.cs" />
     <Compile Include="Assets\Blockout\Editor\BlockoutGridSnapping.cs" />
-    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSuggestedSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorScalableObjectsSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorOthersSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\CreateBlockoutPrefabWizzard.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorCameraAnchorSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\EditorHotkeysTracker.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorHierarchyToolsSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\CommentExplorerWindowTab.cs" />
+    <Compile Include="Assets\Blockout\Editor\EUIResourceManager.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorTransformSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorCommentsSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\ThemeDefinition.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSection.cs" />
+    <Compile Include="Assets\Blockout\Editor\CommentExplorer.cs" />
+    <Compile Include="Assets\Blockout\Editor\BlockoutEditorSettings.cs" />
+    <Compile Include="Assets\Blockout\Editor\EditorObjExporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Blockout\Editor\RadicalForge.Blockout.Editor.asmdef" />
@@ -776,7 +776,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="RadicalForge.Blockout.csproj">
-      <Project>{318A0F73-52DE-120C-A953-166DD459B3CF}</Project>
+      <Project>{228EC023-96FB-0205-A8AD-1E4ABD79EBF8}</Project>
       <Name>RadicalForge.Blockout</Name>
     </ProjectReference>
   </ItemGroup>

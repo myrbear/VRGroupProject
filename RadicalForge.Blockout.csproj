@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{318A0F73-52DE-120C-A953-166DD459B3CF}</ProjectGuid>
+    <ProjectGuid>{228EC023-96FB-0205-A8AD-1E4ABD79EBF8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>RadicalForge.Blockout</AssemblyName>
@@ -56,21 +56,21 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Blockout\Scripts\Explosion.cs" />
-    <Compile Include="Assets\Blockout\Scripts\Notepad.cs" />
     <Compile Include="Assets\Blockout\Scripts\BlockoutParticleHelper.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutPinGizmo.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutSceneViewCubeGizmo.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutTrigger.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutCommentInGameGUI.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutSceneSettings.cs" />
-    <Compile Include="Assets\Blockout\Scripts\CameraForceDepthRender.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutHelper.cs" />
-    <Compile Include="Assets\Blockout\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\Blockout\Scripts\Notepad.cs" />
     <Compile Include="Assets\Blockout\Scripts\Collectable.cs" />
-    <Compile Include="Assets\Blockout\Scripts\BlockoutSection.cs" />
+    <Compile Include="Assets\Blockout\Scripts\Explosion.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutSceneViewCubeGizmo.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutPinGizmo.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutCommentInGameGUI.cs" />
+    <Compile Include="Assets\Blockout\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutSceneSettings.cs" />
     <Compile Include="Assets\Blockout\Scripts\BlockoutRulerObject.cs" />
+    <Compile Include="Assets\Blockout\Scripts\CameraForceDepthRender.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutTrigger.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutHelper.cs" />
     <Compile Include="Assets\Blockout\Scripts\CollectionTrigger.cs" />
+    <Compile Include="Assets\Blockout\Scripts\BlockoutSection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Blockout\Scripts\RadicalForge.Blockout.asmdef" />
