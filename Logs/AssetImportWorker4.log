@@ -1,0 +1,1006 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/mzlaf/Documents/VR/VR Group Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51539
+Successfully changed project path to: C:/Users/mzlaf/Documents/VR/VR Group Project
+C:/Users/mzlaf/Documents/VR/VR Group Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17800] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3987320070 [EditorId] 3987320070 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17800] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3987320070 [EditorId] 3987320070 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 118.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mzlaf/Documents/VR/VR Group Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4628
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005459 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 442 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1381ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (860ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (553ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004482 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0003f] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1928ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1644ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1030ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (869ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.8 KB). Loaded Objects now: 3566.
+Memory consumption went from 117.7 MB to 117.6 MB.
+Total: 15.053100 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.096000 ms MarkObjects: 14.580600 ms  DeleteObjects: 0.152300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 387371.428667 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4.prefab
+  artifactKey: Guid(759a65b3d2fba82469aa28cc0fa08309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4.prefab using Guid(759a65b3d2fba82469aa28cc0fa08309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e245ab97dff2052ddd5966f4887c217') in 0.166573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Blockout/Prefabs/Abstract/Abstarct_Gate_1.prefab
+  artifactKey: Guid(d5647e1bab64f8c448bc6fd3e3600cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Abstract/Abstarct_Gate_1.prefab using Guid(d5647e1bab64f8c448bc6fd3e3600cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c723c27106f7c74ae9ea5adc97b39c2') in 0.025512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_2x05x05.prefab
+  artifactKey: Guid(75f8bc3b8beaa3f469baaaf5e79de429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_2x05x05.prefab using Guid(75f8bc3b8beaa3f469baaaf5e79de429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01067a307fcf861768dae296b7440f8') in 0.027378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_2_Destroyed_2.prefab
+  artifactKey: Guid(d9783e3840b8c2345816f8864d39374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_2_Destroyed_2.prefab using Guid(d9783e3840b8c2345816f8864d39374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a0c1cf0b47f3a8cc43bf15519a6d4e') in 0.029758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x025x4.prefab
+  artifactKey: Guid(891cae0d75d245a41951e45b6a04ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x025x4.prefab using Guid(891cae0d75d245a41951e45b6a04ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da96266e498848cab0752118bd1a6eae') in 0.028875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_T1_20x02x20.prefab
+  artifactKey: Guid(2174b55b1c82b8c4395617785a5aa9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_T1_20x02x20.prefab using Guid(2174b55b1c82b8c4395617785a5aa9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93320bf14b4d6c5e313974d05395a56') in 0.040576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_Bend_Outer_1x-025x1.prefab
+  artifactKey: Guid(27cc138b6f56ad446b1eecdd981ceb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_Bend_Outer_1x-025x1.prefab using Guid(27cc138b6f56ad446b1eecdd981ceb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8620d217ae51c51ef70af427fadf5deb') in 0.032717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Box_2x3x6.prefab
+  artifactKey: Guid(9ed46c4af4ad7694b9d931e4323fab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Box_2x3x6.prefab using Guid(9ed46c4af4ad7694b9d931e4323fab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d84a78444bbc5d6dfcbdc16810ddc5') in 0.069694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x3x1.prefab
+  artifactKey: Guid(6404453aeb0666b48a76c0a0058c23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x3x1.prefab using Guid(6404453aeb0666b48a76c0a0058c23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318bae9b115bf2690c6f53606f67429') in 0.195950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x3x1.prefab
+  artifactKey: Guid(633d5a771e91ca244b28a23e9fb5330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x3x1.prefab using Guid(633d5a771e91ca244b28a23e9fb5330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9df73971576745ae055ce7ab02c089c') in 0.041392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_1x05x2.prefab
+  artifactKey: Guid(877c975ebb8ae3b498ed22114ce489ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_1x05x2.prefab using Guid(877c975ebb8ae3b498ed22114ce489ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513be5fb633b1954dd123eb7eef2510a') in 0.218446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Floating_T3_1x-025x1.prefab
+  artifactKey: Guid(108560314e6b8904b95995fa844b83d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Floating_T3_1x-025x1.prefab using Guid(108560314e6b8904b95995fa844b83d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731dd8e53b99c0d7b18bc30a1a54ad8b') in 0.130165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x5x1.prefab
+  artifactKey: Guid(4d61590ba528d3d4fa9e58e7df3ca835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x5x1.prefab using Guid(4d61590ba528d3d4fa9e58e7df3ca835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9714ed8f65c168464da60676b29c5208') in 0.088594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x3x1.prefab
+  artifactKey: Guid(8b81ec77b8e14da40b652e1c4f6fa5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x3x1.prefab using Guid(8b81ec77b8e14da40b652e1c4f6fa5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d4fe9b1c1387dbc3b6bbf97afcdc35') in 0.090735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Tube_Hole_Large_8x8x12.prefab
+  artifactKey: Guid(c1f4369156bfcd440b1ead615157a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Tube_Hole_Large_8x8x12.prefab using Guid(c1f4369156bfcd440b1ead615157a2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5477de50ddab7234b0e087e2dc9c1a25') in 0.190119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T5_1x2x1.prefab
+  artifactKey: Guid(fc4a89d4c0d2c3f4984f97ef1df19a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T5_1x2x1.prefab using Guid(fc4a89d4c0d2c3f4984f97ef1df19a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed49a260c4d7b3b70abd765852ac985') in 0.121831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_05x3x1.prefab
+  artifactKey: Guid(caab8515325500c4aaac37eae7de2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_05x3x1.prefab using Guid(caab8515325500c4aaac37eae7de2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de0e754c30b1b78d7640e7b76ebbce') in 0.134522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x3.prefab
+  artifactKey: Guid(8ef0889161176b142add3f9dc03003c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x3.prefab using Guid(8ef0889161176b142add3f9dc03003c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d84769cc0af1f792278ec08fc3590e') in 0.115171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x4.prefab
+  artifactKey: Guid(1b77b0222f4bbaa48aa25a04601ff472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x4.prefab using Guid(1b77b0222f4bbaa48aa25a04601ff472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d56ac73f9ceb8f3708454a9112a1bd3') in 0.096915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab
+  artifactKey: Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab using Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323bd23f94fa1f9778bb37f66a1dc168') in 0.066281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_1x-025x4.prefab
+  artifactKey: Guid(9469569c866f70546a89a4196f862247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_1x-025x4.prefab using Guid(9469569c866f70546a89a4196f862247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c3517a526b8e4cc5f78c097ae1b11') in 0.116327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Cracked_T2_2x-025x2.prefab
+  artifactKey: Guid(828536d84fa01d4419c3b89ad61b9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Cracked_T2_2x-025x2.prefab using Guid(828536d84fa01d4419c3b89ad61b9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ef966b24c5605cd29762ac76ae56d6') in 0.038194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_RockFace_T1_10x3x10.prefab
+  artifactKey: Guid(48d31d00461f3334c8f8720ecfbf3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_RockFace_T1_10x3x10.prefab using Guid(48d31d00461f3334c8f8720ecfbf3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d2f454fafe3d67fff422981c481073') in 0.027083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Slope_Corner_Inverse_2x1x2.prefab
+  artifactKey: Guid(8c4b52f697225364dad6e3f808b2df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Slope_Corner_Inverse_2x1x2.prefab using Guid(8c4b52f697225364dad6e3f808b2df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157eea24b65e785696ca55e14dd35d90') in 0.064473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T3_1x2x1.prefab
+  artifactKey: Guid(d3ac1e39831532741b89a016f41d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T3_1x2x1.prefab using Guid(d3ac1e39831532741b89a016f41d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070e828eb56c66c0c11eaddbd31a1adb') in 0.095158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T2_1x05x007.prefab
+  artifactKey: Guid(5640f663d45492241b9381e9b5dfcf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T2_1x05x007.prefab using Guid(5640f663d45492241b9381e9b5dfcf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd00e1e36cfc1311a4467eda86250e2') in 0.030764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Cracked_T1_3x-025x3.prefab
+  artifactKey: Guid(74d644d8377d2d846904eecf06d86279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Cracked_T1_3x-025x3.prefab using Guid(74d644d8377d2d846904eecf06d86279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59147e3af4a2fc0cf73aadbcdb5908') in 0.097140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_Corner_4x-025x4.prefab
+  artifactKey: Guid(0d4841c8fe9a0dc4e811c71e17e9945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_Corner_4x-025x4.prefab using Guid(0d4841c8fe9a0dc4e811c71e17e9945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b69fcb39500634efe70bf5c933e7a4d') in 0.130529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x2.prefab
+  artifactKey: Guid(456b235e25feb9a418b5fc5ff4d9ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x2.prefab using Guid(456b235e25feb9a418b5fc5ff4d9ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159a2fed24bcbd27610b7d8b83c0e250') in 0.034964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Wall_025x2x1.prefab
+  artifactKey: Guid(1372d17edae3d39408bcc388ee233c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Wall_025x2x1.prefab using Guid(1372d17edae3d39408bcc388ee233c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba4a37ae5a211e715c7cb4725b594c9') in 0.211958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Cone_Mini.prefab
+  artifactKey: Guid(e9cd013608b75f94eb0f7e0cfab5f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Cone_Mini.prefab using Guid(e9cd013608b75f94eb0f7e0cfab5f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564c12369646951afebac34a495497f1') in 0.035439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destoryed_End_025x3x4.prefab
+  artifactKey: Guid(a13ef3ccdaf86124da261a2def43323c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destoryed_End_025x3x4.prefab using Guid(a13ef3ccdaf86124da261a2def43323c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911a55765890949bdcbbcb4c66038974') in 0.024511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_2x05x05.prefab
+  artifactKey: Guid(d485fe7b43048714c8892d1d7365eb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_2x05x05.prefab using Guid(d485fe7b43048714c8892d1d7365eb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a188ee32a341edf3431021427d8dca33') in 0.148291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_Angle_5x-025x5.prefab
+  artifactKey: Guid(dc193340a0d12664eb351f9e83be9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_Angle_5x-025x5.prefab using Guid(dc193340a0d12664eb351f9e83be9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ecc9c13d140cf75425fa79a9316464') in 0.125805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Doorway_025x3x3.prefab
+  artifactKey: Guid(d8754e71114da5a459fa0ca1c323a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Doorway_025x3x3.prefab using Guid(d8754e71114da5a459fa0ca1c323a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287d9a2dc94500fbb7451a9442efe7b0') in 0.040091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Hole_T2_1x-025x1.prefab
+  artifactKey: Guid(4e99a08d373ac904491c53b810e720b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Hole_T2_1x-025x1.prefab using Guid(4e99a08d373ac904491c53b810e720b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b370cd473f9ebf61796509287f2ef') in 0.030747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T2_1x4x1.prefab
+  artifactKey: Guid(c41209a3ccd44ad45bf8aa5bdbafcc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T2_1x4x1.prefab using Guid(c41209a3ccd44ad45bf8aa5bdbafcc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1f3a7f9fd3d4e61791c360e68ac01') in 0.084683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Small_Corner2_2x05x2.prefab
+  artifactKey: Guid(b90c71ded71829144a882504d8f9bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Small_Corner2_2x05x2.prefab using Guid(b90c71ded71829144a882504d8f9bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429bb6d60f876ec9ffd44fe77ad5823a') in 0.044605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_4.prefab
+  artifactKey: Guid(d5fae7c479eabe146be13de323446680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_4.prefab using Guid(d5fae7c479eabe146be13de323446680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4808256c45433a0693b26a23f7560cf') in 0.076546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blockout/Prefabs/Tri Prefabs/Tri_Wall.prefab
+  artifactKey: Guid(8fab2a6b9cd4dfb4aad9136bf802bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Tri Prefabs/Tri_Wall.prefab using Guid(8fab2a6b9cd4dfb4aad9136bf802bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bddaa14a8850fad38deefadcb876b71') in 0.064007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x4x1.prefab
+  artifactKey: Guid(323cfbaf31e67e9468fb8f92101c4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T1_1x4x1.prefab using Guid(323cfbaf31e67e9468fb8f92101c4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6753697e037996e2b5bf8a6c8fd47d') in 0.072834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x4x4.prefab
+  artifactKey: Guid(4459fac03eb66bb4eb306681709ee5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x4x4.prefab using Guid(4459fac03eb66bb4eb306681709ee5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a02a6fee89863d3d5728895d3a8a50') in 0.033259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x1.prefab
+  artifactKey: Guid(031b277f6652b8b4e909441e4cdae9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x1.prefab using Guid(031b277f6652b8b4e909441e4cdae9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93a4cdefc682379efa9243f0335f13a') in 0.032287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Pipe_Bend_2x05x2.prefab
+  artifactKey: Guid(d45683bc51a24f241815d9b460742c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Pipe_Bend_2x05x2.prefab using Guid(d45683bc51a24f241815d9b460742c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd846d1741205b4d179d3c79444f6a3c') in 0.101110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T2_1x1x1.prefab
+  artifactKey: Guid(8015c71c2aeb9b045a20d130c781a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corners/Block_Corner_T2_1x1x1.prefab using Guid(8015c71c2aeb9b045a20d130c781a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4c606312d85d686a4bfc047e0478b7') in 0.092035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Window_T1_025x3x1.prefab
+  artifactKey: Guid(6f1901e3e159807438f3b350d48a0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Window_T1_025x3x1.prefab using Guid(6f1901e3e159807438f3b350d48a0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570eab5b6635eead016e1fc999083f94') in 0.061444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x5x4.prefab
+  artifactKey: Guid(e73bc05d8a94c154bb41b63ef3b2ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x5x4.prefab using Guid(e73bc05d8a94c154bb41b63ef3b2ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064b28af3d170da6ab6c222b8b3ccbc1') in 0.024643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Slope_2x3x6.prefab
+  artifactKey: Guid(cafcf87df2aec494aba4853b0daf40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Slope_2x3x6.prefab using Guid(cafcf87df2aec494aba4853b0daf40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b500a3ce764ca3d5026cced431db0485') in 0.133811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T2_1x4x1.prefab
+  artifactKey: Guid(f96b1f41452104d4e95acf9aa7cd614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T2_1x4x1.prefab using Guid(f96b1f41452104d4e95acf9aa7cd614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9683905733af83c92c281d408011a8') in 0.037837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Wall_Pillar_Cap_T4_1x1x1.prefab
+  artifactKey: Guid(dcead1b93e1ca06429b0fea5b024050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Wall_Pillar_Cap_T4_1x1x1.prefab using Guid(dcead1b93e1ca06429b0fea5b024050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fe9461a0678fcefad0abec1f17bdb9') in 0.167518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_3.prefab
+  artifactKey: Guid(0b62a5adfc5e1474dad47297058467a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_3.prefab using Guid(0b62a5adfc5e1474dad47297058467a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4fbad72f65b365cd46ff27264eb098') in 0.039000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Barrel_Old.prefab
+  artifactKey: Guid(2959c6b2cd9c94f418883ecdde9f44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Barrel_Old.prefab using Guid(2959c6b2cd9c94f418883ecdde9f44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aad08117b3abe0de577661b6561c70f') in 0.038264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Hole_4x-025x4.prefab
+  artifactKey: Guid(1a9d0683459002b4daf6ea6fc9569f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Hole_4x-025x4.prefab using Guid(1a9d0683459002b4daf6ea6fc9569f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98babe2d3d4645dcea3483a78f034ad8') in 0.092990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x025x2.prefab
+  artifactKey: Guid(6283bac7266270e4da8cd37e0a9f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x025x2.prefab using Guid(6283bac7266270e4da8cd37e0a9f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13a2a4d775486d998e9ee61ae92d469') in 0.028432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_05x05x05.prefab
+  artifactKey: Guid(83bafed0d48c90945b9fb599a28f7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_05x05x05.prefab using Guid(83bafed0d48c90945b9fb599a28f7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afd27763e0ad3a36204bf6dd1682c1d') in 0.025696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Sphere_Small_4x02x4.prefab
+  artifactKey: Guid(71c26e5d15618ec4bbe29f4b17e5af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Sphere_Small_4x02x4.prefab using Guid(71c26e5d15618ec4bbe29f4b17e5af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc2e2e83e07327dae33e0a93adf9090') in 0.125981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_1.prefab
+  artifactKey: Guid(a74203224f143b24ca9a15a80c6d7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_1.prefab using Guid(a74203224f143b24ca9a15a80c6d7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015b65a81e5823b676dad7a54a66ad07') in 0.040827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_Alt2_1x3x3.prefab
+  artifactKey: Guid(756a3e5b559a1f048a1ac7573e2ffa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_Alt2_1x3x3.prefab using Guid(756a3e5b559a1f048a1ac7573e2ffa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a73d4158f1f17d90f9e66d57562b9a0') in 0.270601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Wall_Pillar_Cap2_T1_1x1x1.prefab
+  artifactKey: Guid(4ecf23b6a16d3cb42b6e053b9e6b3e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Wall_Pillar_Cap2_T1_1x1x1.prefab using Guid(4ecf23b6a16d3cb42b6e053b9e6b3e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf68f084c9f4fc408665fccbbddac8ca') in 0.028079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blockout/Prefabs/Foliage/Vines_Med.prefab
+  artifactKey: Guid(4f63e9ab90bf0fd49b03c88165ab8f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Foliage/Vines_Med.prefab using Guid(4f63e9ab90bf0fd49b03c88165ab8f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aab1157ac92047aec4ba592e75d7bd2') in 0.032683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x4x1.prefab
+  artifactKey: Guid(70c2203d56b929545b8c7d38df03cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x4x1.prefab using Guid(70c2203d56b929545b8c7d38df03cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e212e5bd7e719237e5b0e1343f4c41f') in 0.040213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x3x1.prefab
+  artifactKey: Guid(060bddec0141d7c479b485bf5462c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x3x1.prefab using Guid(060bddec0141d7c479b485bf5462c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a1374d63d5f0f05f0f7ac076b47ab4') in 0.045936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Floating_T1_3x-025x3 1.prefab
+  artifactKey: Guid(a0979d56e055f9b4e914516b5de05a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floors_Cracked/Floor_Floating_T1_3x-025x3 1.prefab using Guid(a0979d56e055f9b4e914516b5de05a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf1d0465eeb84f2b547c5f00007f4c4') in 0.039231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T2_1x3x1.prefab
+  artifactKey: Guid(a4a188a1b5db8a34bb9e10cd3d7008ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T2_1x3x1.prefab using Guid(a4a188a1b5db8a34bb9e10cd3d7008ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c5f7a15c50fc1404db9abf55fde60b') in 0.034765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Blockout/Resources/Blockout/Ruler/BlockoutRuler.prefab
+  artifactKey: Guid(df699e23ca6ef497ebdd465ab5cb48c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Ruler/BlockoutRuler.prefab using Guid(df699e23ca6ef497ebdd465ab5cb48c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1906f768cd278c5cf89eb129ab1bccf') in 0.079643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_Slope_Corner_5x5x5.prefab
+  artifactKey: Guid(e27cb7d1ff7d0a744a386dbe187672c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_Slope_Corner_5x5x5.prefab using Guid(e27cb7d1ff7d0a744a386dbe187672c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c8f7d551024cbc9cbdcae72fe6d89') in 0.030166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Tube_Quater_8x4x4.prefab
+  artifactKey: Guid(ad87f7b9aa14ce747b575e07eb92d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Tube_Quater_8x4x4.prefab using Guid(ad87f7b9aa14ce747b575e07eb92d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9670a443f91350d69db9c62993e9d10f') in 0.041125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x2x4.prefab
+  artifactKey: Guid(cd595647b6580ec4ea1440a7dd28a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x2x4.prefab using Guid(cd595647b6580ec4ea1440a7dd28a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347acd4c27b2f339ad55c0cd4ba7b7d0') in 0.034143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_Mound_Down_20x02x20.prefab
+  artifactKey: Guid(3144f6096d10e814aa6785ba63285156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_Mound_Down_20x02x20.prefab using Guid(3144f6096d10e814aa6785ba63285156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e82e1e80e3a1c429e5f797cb872e013') in 0.105042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T4_1x3x1.prefab
+  artifactKey: Guid(246ed6046b2d72149b201fcbc3b30bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T4_1x3x1.prefab using Guid(246ed6046b2d72149b201fcbc3b30bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c42b4c42f24a4526dc55cda721ea8a0') in 0.048513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Pipe_Bend_3x05x3.prefab
+  artifactKey: Guid(42c053a288c12944191856558ea4ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Pipe_Bend_3x05x3.prefab using Guid(42c053a288c12944191856558ea4ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0101eb6546ee972040ba742829420776') in 0.109832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Tube_Half_8x4x4.prefab
+  artifactKey: Guid(7b9ea3b6d48b8914092fcfb62f9f6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Tube_Half_8x4x4.prefab using Guid(7b9ea3b6d48b8914092fcfb62f9f6955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b290b52731419f0b88151a319ab60512') in 0.069155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T1_1x3x1.prefab
+  artifactKey: Guid(70ccd430aa7dcf64b9eee1a2faa89f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T1_1x3x1.prefab using Guid(70ccd430aa7dcf64b9eee1a2faa89f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ec543a39ab4fbb621c15199b6138b1') in 0.032471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T1_1x5x1.prefab
+  artifactKey: Guid(250fdf0e364d0b64384ca324bf94380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T1_1x5x1.prefab using Guid(250fdf0e364d0b64384ca324bf94380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814dd3f6ac093039b43b4516023e0bba') in 0.142245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_Alt1_05x2x05.prefab
+  artifactKey: Guid(656c41730d0ca60449828a28160d716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_Alt1_05x2x05.prefab using Guid(656c41730d0ca60449828a28160d716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a661b3475a29116a0949320731779aa') in 0.147503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Corner_Cap_T2_1x1x1.prefab
+  artifactKey: Guid(d893b972faeba7647b27b0ac6e3babf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Corner_Cap_T2_1x1x1.prefab using Guid(d893b972faeba7647b27b0ac6e3babf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236fe51d0934fc290476998d1878da8') in 0.122600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Background_Assets/Mountain_2.prefab
+  artifactKey: Guid(7a7ff3d335505a04fb80b2668e2033cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Background_Assets/Mountain_2.prefab using Guid(7a7ff3d335505a04fb80b2668e2033cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2601fa9fc2f62fbdd62b57a220c66c73') in 0.095647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_Bend_Outer_5x-025x5.prefab
+  artifactKey: Guid(bb7f2577b8f14254e9527bb3d92feda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_Bend_Outer_5x-025x5.prefab using Guid(bb7f2577b8f14254e9527bb3d92feda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eb3f7ca91cb86d1804a89fa4448c11') in 0.058544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Rocks/Rock_Block_1x3x1.prefab
+  artifactKey: Guid(0ab64c599c90cd74fbfed838eba81136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Rocks/Rock_Block_1x3x1.prefab using Guid(0ab64c599c90cd74fbfed838eba81136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4eca471857a844d4588328d1e3722c2') in 0.055868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Pallet_Closed 1.prefab
+  artifactKey: Guid(db043a114670ff7498eb6c73d472534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Pallet_Closed 1.prefab using Guid(db043a114670ff7498eb6c73d472534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441a881e051b2ba77f552657f11b0eb2') in 0.076662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Blockout/Resources/Blockout/Pins/Pin_2_Square.prefab
+  artifactKey: Guid(65071fcfc4948a148b8af7a88268d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Pins/Pin_2_Square.prefab using Guid(65071fcfc4948a148b8af7a88268d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f91257ad827b3b065353d86a3561aae') in 0.302317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3.prefab
+  artifactKey: Guid(310afad454d27ca4e852263075a579ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3.prefab using Guid(310afad454d27ca4e852263075a579ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12dd667c258c7ec02d4391941676db1') in 0.072812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_T1_025x1x1.prefab
+  artifactKey: Guid(b5f174b289d44e740800ee09e192bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_T1_025x1x1.prefab using Guid(b5f174b289d44e740800ee09e192bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a76800bcfd5364a766bcdcf43e314') in 0.057071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T3_1x3x1.prefab
+  artifactKey: Guid(f1bf2fe6194278941a8bbcd155735a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T3_1x3x1.prefab using Guid(f1bf2fe6194278941a8bbcd155735a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b57d719299f2ab3a277c84461d4f1c8') in 0.046352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x2x1.prefab
+  artifactKey: Guid(e7307ba6c7ecb3f488e67f6d009c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T3_1x2x1.prefab using Guid(e7307ba6c7ecb3f488e67f6d009c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0accece5b7b67582946df3f55d0e782') in 0.062895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Foliage/Tree_2.prefab
+  artifactKey: Guid(a49cb5119836afc4ca52bd0aae995eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Foliage/Tree_2.prefab using Guid(a49cb5119836afc4ca52bd0aae995eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7157b2f7b9517cef752b5f2eade4ecac') in 0.047051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_05x3x05.prefab
+  artifactKey: Guid(03f99cf64b511e447b665120224473a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_05x3x05.prefab using Guid(03f99cf64b511e447b665120224473a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc3f41ccbe22db00d93a291c212621f') in 0.027294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T2_1x5x1.prefab
+  artifactKey: Guid(c25ee51588fe446439ddf1d132fbbcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Wall_Pillar_T2_1x5x1.prefab using Guid(c25ee51588fe446439ddf1d132fbbcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46d6ed0bc24ef9ef5da470cca87dbf0') in 0.032491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4_Alt_2.prefab
+  artifactKey: Guid(7b4f9d3151fc5b543a29e2321cebd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4_Alt_2.prefab using Guid(7b4f9d3151fc5b543a29e2321cebd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c29ad5f96c3a41790a09d59f6715e47') in 0.027081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3_Alt_1.prefab
+  artifactKey: Guid(48f452e3bef3f884d97fc720513cdbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3_Alt_1.prefab using Guid(48f452e3bef3f884d97fc720513cdbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a6150b3e89ba4f50528859acb17780') in 0.025221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Rocks/Rock_Flatbottom_Small_T2_2x2x2.prefab
+  artifactKey: Guid(418c42809bb984d46a62d4a0af1aa057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Rocks/Rock_Flatbottom_Small_T2_2x2x2.prefab using Guid(418c42809bb984d46a62d4a0af1aa057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7880ae640f68e5ebb6897a81b3e02') in 0.039925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Breezeblock_1.prefab
+  artifactKey: Guid(6f48015fe3b984f41a2171587716b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Breezeblock_1.prefab using Guid(6f48015fe3b984f41a2171587716b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738ca8c61f72961f1e7cf21d78c032d6') in 0.032508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_Corner_1x05x1.prefab
+  artifactKey: Guid(f0316523e027880428443d5d11e94ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_Corner_1x05x1.prefab using Guid(f0316523e027880428443d5d11e94ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2276afe5ac14263d5fb0959e125fc1e0') in 0.049882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_Inverse_Corner_05x05x05.prefab
+  artifactKey: Guid(817be8a529742e844a6f1fd5ad76cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_Slope_T1_Inverse_Corner_05x05x05.prefab using Guid(817be8a529742e844a6f1fd5ad76cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b6f171bf8bda9c6899e8dcdc32238f') in 0.034860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Window_T2_025x3x2.prefab
+  artifactKey: Guid(008d8d20638492e40902724e77186461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Window_T2_025x3x2.prefab using Guid(008d8d20638492e40902724e77186461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3617fa21b27b1f42f4c9c5219c8fa895') in 0.116348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Corner_T4_1x1x005.prefab
+  artifactKey: Guid(614b5faa55ebf4449806568933272fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Caps/Block_Corner_T4_1x1x005.prefab using Guid(614b5faa55ebf4449806568933272fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3970891b412afffb7332a15d179d983a') in 0.090236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_Slope_Inner_T1_10x1x10.prefab
+  artifactKey: Guid(08049645fc2957b44a9f30193a89e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Terrain Blocks/Ground_Plane_Slope_Inner_T1_10x1x10.prefab using Guid(08049645fc2957b44a9f30193a89e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ab768fa7d3a0251e7f4b9e6fd3275') in 0.036254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x4x1.prefab
+  artifactKey: Guid(3ccf50e4f95eeda4abf4374d2a47c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x4x1.prefab using Guid(3ccf50e4f95eeda4abf4374d2a47c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dac6950cb2429b77bc2afbe9739b46') in 0.127693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Rocks/Rock_Walkable_Small_4.prefab
+  artifactKey: Guid(5fd4c7dea54155a4eb97a74237bbc86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Rocks/Rock_Walkable_Small_4.prefab using Guid(5fd4c7dea54155a4eb97a74237bbc86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30da5f8c4fa03f5a647e3b49c3f32a68') in 0.031449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Floor_14x-025x5.prefab
+  artifactKey: Guid(d0129a27e457ca34daa588bd4c0ccdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Floor_14x-025x5.prefab using Guid(d0129a27e457ca34daa588bd4c0ccdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b244322660efb4425507a68ce70be77b') in 0.113360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Doorway_025x3x4.prefab
+  artifactKey: Guid(e1beff011e6e09c43b39aa639d2136f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Windows & Doors/Wall_Doorway_025x3x4.prefab using Guid(e1beff011e6e09c43b39aa639d2136f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad1e9811724158272b6ae9585292128') in 0.158804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Pipe_TJunction_1x05x05.prefab
+  artifactKey: Guid(bd432e35b09f21f4da16938567aa469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Pipe_TJunction_1x05x05.prefab using Guid(bd432e35b09f21f4da16938567aa469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c5d2554033c42bf6a348fddebf3e0f') in 0.055784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_3x05x05.prefab
+  artifactKey: Guid(b6004cbd47b79d645ab91695a55c6454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_3x05x05.prefab using Guid(b6004cbd47b79d645ab91695a55c6454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d097200b6fe132a3d1e5900472edb') in 0.046819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x1.prefab
+  artifactKey: Guid(d0c52d16059aeae40a5d4fbdf47ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x1.prefab using Guid(d0c52d16059aeae40a5d4fbdf47ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f296bf0eb79aec81a2267ba5d79265c') in 0.143205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Resources/Blockout/Pins/Pin_4_Hexagon.prefab
+  artifactKey: Guid(8f8b931d6fbaad144b4ae864591bef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Pins/Pin_4_Hexagon.prefab using Guid(8f8b931d6fbaad144b4ae864591bef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632e4494a651f1e06eee7bea23ff4625') in 0.045715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Rocks/Rock_Walkable_Small_1.prefab
+  artifactKey: Guid(8a5754eea959eb14584cf1e8ebd25c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Rocks/Rock_Walkable_Small_1.prefab using Guid(8a5754eea959eb14584cf1e8ebd25c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119ca13f2a53fd69bc1c30c0bfafff25') in 0.047988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T2_1x1x1.prefab
+  artifactKey: Guid(a7078009ceedc34499b1d7bfb0ee5e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Pillars/Block_Pillar_T2_1x1x1.prefab using Guid(a7078009ceedc34499b1d7bfb0ee5e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a61be07fce585ca202c14f33d404106') in 0.087412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Bollard_1.prefab
+  artifactKey: Guid(658629d9d47ea0544ab99138c31d53ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Bollard_1.prefab using Guid(658629d9d47ea0544ab99138c31d53ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced6338b0fcdac4f0e6ff0e150851b46') in 0.037029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_2.prefab
+  artifactKey: Guid(6874b67aa4f02234c8f1d89b95c38523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_2.prefab using Guid(6874b67aa4f02234c8f1d89b95c38523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acee549f4bbda2d60f220ef33d818dfe') in 0.147190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T1_1x2x1.prefab
+  artifactKey: Guid(871b85ac1c778c14d8ca9370d3e37ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Corner Inner/Block_Inner_Corner_T1_1x2x1.prefab using Guid(871b85ac1c778c14d8ca9370d3e37ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f989295d4101dccd6702a4729205fec9') in 0.082985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Blockout/Prefabs/Pipes/Tube_8x8x8.prefab
+  artifactKey: Guid(efb9bd5eed1e70e4db9a0895e90bf952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Pipes/Tube_8x8x8.prefab using Guid(efb9bd5eed1e70e4db9a0895e90bf952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43de6208c18d7fcba9439044a416c421') in 0.065867 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004268 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00013] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1732ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1402ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.7 KB). Loaded Objects now: 3582.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 13.470400 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.116200 ms MarkObjects: 13.009100 ms  DeleteObjects: 0.118900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003971 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00013] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in C:\Users\mzlaf\Documents\VR\VR Group Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1662ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.8 KB). Loaded Objects now: 3586.
+Memory consumption went from 120.8 MB to 120.8 MB.
+Total: 13.249700 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.101400 ms MarkObjects: 12.806700 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
