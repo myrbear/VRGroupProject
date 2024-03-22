@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61066
+Successfully changed project path to: C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
+C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16956] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1768783251 [EditorId] 1768783251 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16956] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1768783251 [EditorId] 1768783251 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 130.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mzlaf/Documents/GitRepos/VRGroupProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4628
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007299 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+InvalidOperationException: Cannot process request because the process (25040) has exited.
+  at System.Diagnostics.Process.GetProcessHandle (System.Int32 access, System.Boolean throwIfExited) [0x0004e] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
+  at System.Diagnostics.Process.GetProcessHandle (System.Int32 access) [0x00000] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
+  at System.Diagnostics.Process.Kill () [0x00002] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Kill()
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0014a] in <fa6b86c947e14a6a903c64a6b203942b>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <fa6b86c947e14a6a903c64a6b203942b>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <fa6b86c947e14a6a903c64a6b203942b>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <fa6b86c947e14a6a903c64a6b203942b>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <e3d2e3f6a525465bbf8c67432a3cb6ef>:0 
+
+Refreshing native plugins compatible for Editor in 124.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4585ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (4351ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (4105ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3760ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Registering precompiled user dll's ...
+Registered in 0.004420 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0003f] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1729ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1435ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (734ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (115.9 KB). Loaded Objects now: 3584.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 14.504500 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.121300 ms MarkObjects: 13.926100 ms  DeleteObjects: 0.198600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 773366.939917 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Breezeblock_1.prefab
+  artifactKey: Guid(6f48015fe3b984f41a2171587716b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Breezeblock_1.prefab using Guid(6f48015fe3b984f41a2171587716b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58d59ac95ba89aa82cc337dd652d144') in 0.720487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Crate_1x1x1.prefab
+  artifactKey: Guid(53c0f5b99c4af484793939e534c558b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Crate_1x1x1.prefab using Guid(53c0f5b99c4af484793939e534c558b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a88843a25c92952dd3b6cb35a1c7a9') in 0.072099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_1.prefab
+  artifactKey: Guid(be0a52cc0046c7a40b4373f1c06577b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_1.prefab using Guid(be0a52cc0046c7a40b4373f1c06577b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6bb6c85ccc2ae48545734de35a2dfc') in 0.182664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_1.prefab
+  artifactKey: Guid(4556e3c10d85c8346847437027667232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_1.prefab using Guid(4556e3c10d85c8346847437027667232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44719d69eaf881199bae7b9aaaa479b') in 0.033974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Pallet_Closed.prefab
+  artifactKey: Guid(4156cbba0bca59d47ac859baf0e3502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Pallet_Closed.prefab using Guid(4156cbba0bca59d47ac859baf0e3502d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ada5770cf5b5b40f78ba7dafd69d2bc') in 0.029736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Crate_2x1x1.prefab
+  artifactKey: Guid(5cb5844b0fc7888478846505927d40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Crate_2x1x1.prefab using Guid(5cb5844b0fc7888478846505927d40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397ac0fcb337a353f39e1d81451905e9') in 0.022505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_2.prefab
+  artifactKey: Guid(0f537530c709a4441b484cb88eeddfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_2.prefab using Guid(0f537530c709a4441b484cb88eeddfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45dee77357288794d309445436b6703') in 0.034612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Tool_Box_1.prefab
+  artifactKey: Guid(a7f49c6ae70507a4484536305dfa4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Tool_Box_1.prefab using Guid(a7f49c6ae70507a4484536305dfa4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bc8a175f8560f5d98502e223b99e2') in 0.032119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Crate_2x1x1_Large.prefab
+  artifactKey: Guid(7438066611a179a438f7b136cf58f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Crate_2x1x1_Large.prefab using Guid(7438066611a179a438f7b136cf58f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae83065485ec21ef8e00d18f08c4dcd') in 0.044244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1_Destroyed_1.prefab
+  artifactKey: Guid(a2c0e84faee39d44a9f1f86acf6a3035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1_Destroyed_1.prefab using Guid(a2c0e84faee39d44a9f1f86acf6a3035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991199e7f8b24f81ab5c505a1967ae23') in 0.042938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_3.prefab
+  artifactKey: Guid(e398dc49f18315d4a91cd5c8f007781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_3.prefab using Guid(e398dc49f18315d4a91cd5c8f007781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9da3087fdae132e07da8aaa7d7e77e4') in 0.028349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1_Destroyed_2.prefab
+  artifactKey: Guid(fb9aa1d2e5949f74281bbb9abcc6ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1_Destroyed_2.prefab using Guid(fb9aa1d2e5949f74281bbb9abcc6ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ab4c2583dcf950e96065937034822d') in 0.032099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_2.prefab
+  artifactKey: Guid(6874b67aa4f02234c8f1d89b95c38523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_2.prefab using Guid(6874b67aa4f02234c8f1d89b95c38523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f36a7f3f659a06cdd9944298f5264a') in 0.022803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1.prefab
+  artifactKey: Guid(bc23d85d9b1ce1a4d96c6a0450c1a504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_1.prefab using Guid(bc23d85d9b1ce1a4d96c6a0450c1a504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff9f77ee1d769f71e9c42179e7fc360') in 0.028398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_3.prefab
+  artifactKey: Guid(0b62a5adfc5e1474dad47297058467a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Dynamic/Fence_Basic_3_Destroyed_3.prefab using Guid(0b62a5adfc5e1474dad47297058467a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77bd9b397ed24fec91bd93c02994e72') in 0.021962 seconds 
