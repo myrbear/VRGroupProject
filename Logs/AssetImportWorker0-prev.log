@@ -15,7 +15,7 @@ C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61066
+61881
 Successfully changed project path to: C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
 C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/mzlaf/Documents/GitRepos/VRGroupProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16160] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4052460601 [EditorId] 4052460601 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20688] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1898468458 [EditorId] 1898468458 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16160] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4052460601 [EditorId] 4052460601 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20688] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1898468458 [EditorId] 1898468458 [Version] 1048832 [Id] WindowsEditor(7,myrbearPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 123.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -59,76 +59,65 @@ Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6010 MB
-    Driver:   31.0.15.4628
+    Renderer: Intel(R) UHD Graphics (ID=0x46a3)
+    Vendor:   Intel
+    VRAM:     8002 MB
+    Driver:   31.0.101.3962
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008772 seconds.
+Registered in 0.006080 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-InvalidOperationException: Cannot process request because the process (25040) has exited.
-  at System.Diagnostics.Process.GetProcessHandle (System.Int32 access, System.Boolean throwIfExited) [0x0004e] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
-  at System.Diagnostics.Process.GetProcessHandle (System.Int32 access) [0x00000] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
-  at System.Diagnostics.Process.Kill () [0x00002] in <c01a3e84b3c1471e86b1e3fb11d4015b>:0 
-  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Kill()
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0014a] in <fa6b86c947e14a6a903c64a6b203942b>:0 
-  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <fa6b86c947e14a6a903c64a6b203942b>:0 
-  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <fa6b86c947e14a6a903c64a6b203942b>:0 
-  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <fa6b86c947e14a6a903c64a6b203942b>:0 
-  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <e3d2e3f6a525465bbf8c67432a3cb6ef>:0 
-
-Refreshing native plugins compatible for Editor in 113.18 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 362 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.612 seconds
+- Completed reload, in  1.156 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4613ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (4373ms)
-			LoadAssemblies (118ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (4125ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (718ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3838ms)
+				InitializePlatformSupportModulesInManaged (463ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
+Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006607 seconds.
+Registered in 0.004143 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\Users\mzlaf\Documents\GitRepos\VRGroupProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
@@ -148,43 +137,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.701 seconds
+- Completed reload, in  1.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1702ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1427ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1346ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (890ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (833ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (740ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (698ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (115.9 KB). Loaded Objects now: 3584.
+Unloading 24 unused Assets / (116.0 KB). Loaded Objects now: 3584.
 Memory consumption went from 130.1 MB to 130.0 MB.
-Total: 26.221500 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.166100 ms MarkObjects: 25.451600 ms  DeleteObjects: 0.301600 ms)
+Total: 14.395100 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.097900 ms MarkObjects: 13.889400 ms  DeleteObjects: 0.179100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,55 +188,359 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 773367.654497 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_5.prefab
-  artifactKey: Guid(2c2bcf7ac43e8c94fb638ebd96c443b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Wall_Box_With_Swing_Door_5.prefab using Guid(2c2bcf7ac43e8c94fb638ebd96c443b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd721d629a227087806511e3b5b1cbad6') in 0.485684 seconds 
+  Time since last request: 775144.838992 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(de36ecb742365a542b6582af43981d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(de36ecb742365a542b6582af43981d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59da4ce9e13773321884ccc9a88a72d') in 0.067796 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Barricade.prefab
-  artifactKey: Guid(1910456fc5fb5774998c8843531e1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Barricade.prefab using Guid(1910456fc5fb5774998c8843531e1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7c814a6d45471a11465711488b9840') in 0.027927 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/untitled.blend
+  artifactKey: Guid(74344d0194d664d4ba9e33050cdfc5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/untitled.blend using Guid(74344d0194d664d4ba9e33050cdfc5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236db594911e74ac6ba46abbe0f906c') in 0.405730 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab
-  artifactKey: Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab using Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c6f89bfbb7b71b4b7da53008b0944a') in 0.062650 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/citadel_environment.blend
+  artifactKey: Guid(61a0153a9e85e664fbf6e85d25054770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/citadel_environment.blend using Guid(61a0153a9e85e664fbf6e85d25054770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf7482fe837bc5af52637ab6493e12') in 0.098402 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3.prefab
-  artifactKey: Guid(310afad454d27ca4e852263075a579ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3.prefab using Guid(310afad454d27ca4e852263075a579ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6255c27c856c5a759edd0c3479277c') in 0.032721 seconds 
+  Time since last request: 2.339620 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.024740 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Cone_Blank.prefab
-  artifactKey: Guid(cafe5796da0e1b74e87c280d3e4cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Cone_Blank.prefab using Guid(cafe5796da0e1b74e87c280d3e4cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151a500938d3bdc40d29a8d5b14c2679') in 0.026310 seconds 
+  Time since last request: 1.103045 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.013842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_5_Alt_1.prefab
-  artifactKey: Guid(c2f82920fcde24441a93870912e6d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_5_Alt_1.prefab using Guid(c2f82920fcde24441a93870912e6d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb502965f8ee3955e0edac1d8e51cf1b') in 0.029987 seconds 
+  Time since last request: 15.898785 seconds.
+  path: Assets/Scenes/NewScene.unity
+  artifactKey: Guid(83bca155637eff440aab41cf38ec6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewScene.unity using Guid(83bca155637eff440aab41cf38ec6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc485fd58df119b0d054c68b318bdda6') in 0.021439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.536661 seconds.
+  path: Assets/Scenes/MyronScene.unity
+  artifactKey: Guid(83bca155637eff440aab41cf38ec6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MyronScene.unity using Guid(83bca155637eff440aab41cf38ec6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139983b932aa624976df40ac165ed38c') in 0.010779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.351775 seconds.
+  path: Assets/Unity.VisualScripting.Generated
+  artifactKey: Guid(f4a23298ae4fde3478171c5f41661f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity.VisualScripting.Generated using Guid(f4a23298ae4fde3478171c5f41661f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d540e7fc811628edff7f34e5a569ba') in 0.013981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.274229 seconds.
+  path: Assets/Spritesheets
+  artifactKey: Guid(0d92a67e4e9273546a5fd5c3a61930ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets using Guid(0d92a67e4e9273546a5fd5c3a61930ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbe0867154942e8e32b609c8c4088c5') in 0.017870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.798643 seconds.
+  path: Assets/Spritesheets/gargoyle.png
+  artifactKey: Guid(729ef417c9c53244ca26554b295292cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/gargoyle.png using Guid(729ef417c9c53244ca26554b295292cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f002b15a9dc653a16a1bf8c90455d') in 0.045251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.293732 seconds.
+  path: Assets/Materials 1
+  artifactKey: Guid(9aacce3cb6c9131418f81205f34a57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1 using Guid(9aacce3cb6c9131418f81205f34a57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604600d51a4d83bba6ce1580dda36b04') in 0.019254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.217418 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(3350faaf39e32b143a8e8abc6067efcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(3350faaf39e32b143a8e8abc6067efcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9024cd2abd270d9573c59c7dfde786c') in 0.030301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.095473 seconds.
+  path: Assets/untitled.blend1
+  artifactKey: Guid(b31b998c301d4d14a941170ba23d1073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/untitled.blend1 using Guid(b31b998c301d4d14a941170ba23d1073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b245e72128901147d2be5a8287c8967') in 0.018708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.432267 seconds.
+  path: Assets/Models/citadel_environment.blend1
+  artifactKey: Guid(d3493bf3c63d17f41bcb32a736213fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/citadel_environment.blend1 using Guid(d3493bf3c63d17f41bcb32a736213fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9519f0c7458dc8734759216caaf680') in 0.007292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.937708 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Leaf.mat
+  artifactKey: Guid(3f995bb45eb2a8f48ba0e427541c893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Leaf.mat using Guid(3f995bb45eb2a8f48ba0e427541c893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c37b6d6f151fcf083670fb0d7eb6bf5') in 0.094476 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Skip_1.prefab
-  artifactKey: Guid(86e59d579c1432e4a9b0697e84670969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Skip_1.prefab using Guid(86e59d579c1432e4a9b0697e84670969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c7e9182a6c9b60d20a655a3b0b8d7f') in 0.032330 seconds 
+  path: Assets/Blockout/Resources/Blockout/Pins/Pin_Outline.mat
+  artifactKey: Guid(b010b49ab5819f748a9dc702c257ad5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Pins/Pin_Outline.mat using Guid(b010b49ab5819f748a9dc702c257ad5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13852a4e7205339bfad76e27af84a58f') in 0.024525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4_Alt_2.prefab
-  artifactKey: Guid(7b4f9d3151fc5b543a29e2321cebd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_4_Alt_2.prefab using Guid(7b4f9d3151fc5b543a29e2321cebd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab9bc219277203018c53bf6d19a58eb') in 0.021867 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Resources/Blockout/Area Comment Textures/Custom_Area_Comment_Wireframe.mat
+  artifactKey: Guid(13cf1ef2e97756248b573a8e038fe4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Area Comment Textures/Custom_Area_Comment_Wireframe.mat using Guid(13cf1ef2e97756248b573a8e038fe4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac89a839f55d127cc8be2fe110a1202') in 0.046234 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3_Alt_1.prefab
-  artifactKey: Guid(48f452e3bef3f884d97fc720513cdbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Wires_Haging_Large_3_Alt_1.prefab using Guid(48f452e3bef3f884d97fc720513cdbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e945fea7ac2e3886ba462272d2fb361') in 0.025762 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blockout/Resources/Blockout/Pins/Pin_Material.mat
+  artifactKey: Guid(e674cb5896fe5484f9230a6f9cc69646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Pins/Pin_Material.mat using Guid(e674cb5896fe5484f9230a6f9cc69646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7a4d05b4a8034233edeaca6208e19e') in 0.017402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Resources/Blockout/Area Comment Textures/Blockout_Wireframe.mat
+  artifactKey: Guid(541c7ce74248e4f0fb315c97472210a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Area Comment Textures/Blockout_Wireframe.mat using Guid(541c7ce74248e4f0fb315c97472210a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbd6f5cb671e34d11b6d5dbe28478e5') in 0.016454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Trim.mat
+  artifactKey: Guid(26a12c0719c0fff4693de3d4e235b54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Trim.mat using Guid(26a12c0719c0fff4693de3d4e235b54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98174984b1544c62b21e83af06aa7c0') in 0.024772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Models/Materials/No Name.mat
+  artifactKey: Guid(a2b400fae65334d349860d874acdfefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Models/Materials/No Name.mat using Guid(a2b400fae65334d349860d874acdfefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d00530c96b0ec1c4fcdbdd45b640f45') in 0.032259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Others/Portal/Portal_Package.mat
+  artifactKey: Guid(d577147e07da98f498f3663cb365d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Others/Portal/Portal_Package.mat using Guid(d577147e07da98f498f3663cb365d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2195d28d5b7842826b86e10d338b4b') in 0.025205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Trim_Tri.mat
+  artifactKey: Guid(fe226767a8338e94885598fa9223c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Trim_Tri.mat using Guid(fe226767a8338e94885598fa9223c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf3bb37a79ff57c5a4f577feee4db32') in 0.015782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.279419 seconds.
+  path: Assets/Blockout/Resources/Blockout/Area Comment Textures/Blockout_Area_Comment_Base.mat
+  artifactKey: Guid(09c2d96e87592b749a51a3f12d5878e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/Area Comment Textures/Blockout_Area_Comment_Base.mat using Guid(09c2d96e87592b749a51a3f12d5878e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd371da5a0e9ae604bbf6f175e498cb49') in 0.061242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Water.mat
+  artifactKey: Guid(2c7247dbd4d51401696ceb0e30af58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Water.mat using Guid(2c7247dbd4d51401696ceb0e30af58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915b0afc786ceb15cde82f178e82ef86') in 0.026151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Foliage.mat
+  artifactKey: Guid(2119786d6853edd4ba99c33c0f3f0f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Foliage.mat using Guid(2119786d6853edd4ba99c33c0f3f0f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba1d6253779574993e5db640404df2b') in 0.020640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Foliage.mat
+  artifactKey: Guid(1d25aeeafef05074988284a5d1e8da5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Foliage.mat using Guid(1d25aeeafef05074988284a5d1e8da5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042b52643cf9431e256d2ecbb8690aa2') in 0.019245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Trim_Tri.mat
+  artifactKey: Guid(4f37fe0e913c3ee42bb2eedc93bfea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Trim_Tri.mat using Guid(4f37fe0e913c3ee42bb2eedc93bfea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2767b9e4db28037198b645ae9d17f16f') in 0.019948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Dynamic.mat
+  artifactKey: Guid(749c0013560b8f14e8ef6e6b7538a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Dynamic.mat using Guid(749c0013560b8f14e8ef6e6b7538a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81befacdedef9d3ec662be28ce1566cd') in 0.017188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Floors_Tri.mat
+  artifactKey: Guid(3543e37444e7d8c43b2ec61432fb2d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Floors_Tri.mat using Guid(3543e37444e7d8c43b2ec61432fb2d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60ff4d48af10739c68f15fb065312fa') in 0.016412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Floors.mat
+  artifactKey: Guid(301dc6a0ddb68c64da6d8fc7c69d36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Floors.mat using Guid(301dc6a0ddb68c64da6d8fc7c69d36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd317e86242c33292907ff76ef19b38') in 0.019007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Trim.mat
+  artifactKey: Guid(4371554b16c78a94ea4d0ae48cc4b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Trim.mat using Guid(4371554b16c78a94ea4d0ae48cc4b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b909cf70bd4d7350ba87c841713fa129') in 0.018447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Floors_Tri.mat
+  artifactKey: Guid(338ecb4689397ae4ca20a9fc4b00e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Floors_Tri.mat using Guid(338ecb4689397ae4ca20a9fc4b00e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7363b067db19156a09249bfebeef5e53') in 0.014422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Leaf.mat
+  artifactKey: Guid(ea30d6ba4a2ed42a09047fd841f050c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Leaf.mat using Guid(ea30d6ba4a2ed42a09047fd841f050c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17e0700f807dff378b3ba284b8169dd') in 0.020224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Trim_Tri.mat
+  artifactKey: Guid(bdf001070330e4848b0e201f1b092ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Trim_Tri.mat using Guid(bdf001070330e4848b0e201f1b092ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd90969f2a8d0a178133b9c7966601e') in 0.045105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Dynamic.mat
+  artifactKey: Guid(9813e5eabbd46294ab12bcbc3652a619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Dynamic.mat using Guid(9813e5eabbd46294ab12bcbc3652a619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898a628507ea77dde8096811f9a48687') in 0.040719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Floors_Tri.mat
+  artifactKey: Guid(79ce13e75d195c04ab2881f8687f85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Floors_Tri.mat using Guid(79ce13e75d195c04ab2881f8687f85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ebdff3ff70a0228d95c81b7fbbc556') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Leaf.mat
+  artifactKey: Guid(015fb8f8c29d24637af685052aae2f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_1_Leaf.mat using Guid(015fb8f8c29d24637af685052aae2f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440957b0487c4621d2229a96586e65b') in 0.019808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Leaf.mat
+  artifactKey: Guid(d7641eabb4a6342348e6506a9156f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Leaf.mat using Guid(d7641eabb4a6342348e6506a9156f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a5691f154ec55f0e8d78569cae5f17') in 0.017594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Water.mat
+  artifactKey: Guid(6103409b32adf4bc0976644d1b1a6ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Water.mat using Guid(6103409b32adf4bc0976644d1b1a6ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790bfef3c625c48a0a3f7162a8e7d5ec') in 0.017888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Walls.mat
+  artifactKey: Guid(aa21d546f198f8a4c9a006c40128a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Walls.mat using Guid(aa21d546f198f8a4c9a006c40128a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a818d9f4d15624eb453aafb851207ea') in 0.024703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Trim.mat
+  artifactKey: Guid(3b467316f7acc9a439505a138bbd1ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Trim.mat using Guid(3b467316f7acc9a439505a138bbd1ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f08682298775465c7d2f64de945292') in 0.017111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Walls_Tri.mat
+  artifactKey: Guid(de80354ffd3f50e4e991fe12c7fde298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Walls_Tri.mat using Guid(de80354ffd3f50e4e991fe12c7fde298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248120a1b05125a40e3bbf0cfefb8f9b') in 0.015932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Floors.mat
+  artifactKey: Guid(d8504d9bf22a8e141985b354ec3d26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Floors.mat using Guid(d8504d9bf22a8e141985b354ec3d26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43c8cfeb51eb950fa1ee055baaa3ee9') in 0.017031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Leaf.mat
+  artifactKey: Guid(2a6b80ff955614201874745f572f85a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Leaf.mat using Guid(2a6b80ff955614201874745f572f85a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa2cf285d87896e2f8afe0bc8b58618') in 0.016562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Dynamic.mat
+  artifactKey: Guid(7fd50d4b251b1614cbe7dfe3e9af4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Dynamic.mat using Guid(7fd50d4b251b1614cbe7dfe3e9af4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37337abfbe105362baaf632461768527') in 0.019265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Trim_Tri.mat
+  artifactKey: Guid(cd2d9406267fa7e44b5406070c69f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Trim_Tri.mat using Guid(cd2d9406267fa7e44b5406070c69f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f496d54bca9ee63db99ad4d5d116c') in 0.015096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Walls_Tri.mat
+  artifactKey: Guid(1836acd380a4f3d4597cb908caaf47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_3_Walls_Tri.mat using Guid(1836acd380a4f3d4597cb908caaf47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06818a84fb774a09e96ad52494b6cd55') in 0.016355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Dynamic.mat
+  artifactKey: Guid(a8a6a97f07c23454687c65f7a6d7c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Dynamic.mat using Guid(a8a6a97f07c23454687c65f7a6d7c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07b97739361400f61973e90b3dde35f') in 0.018245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Trigger.mat
+  artifactKey: Guid(a46a9f9c38a9d7e4b9ab5f546f459de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_4_Trigger.mat using Guid(a46a9f9c38a9d7e4b9ab5f546f459de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340c7f875356fed597f1302de7025bc5') in 0.034942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Floors.mat
+  artifactKey: Guid(f6709f5f57d0235448cffc7827ecc6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_2_Floors.mat using Guid(f6709f5f57d0235448cffc7827ecc6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8f5d03859862ecf2acf47b7a62930a') in 0.017578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.179269 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Trim_Tri.mat
+  artifactKey: Guid(7bc590192b119e34aa1d4e39dec866ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_5_Trim_Tri.mat using Guid(7bc590192b119e34aa1d4e39dec866ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91278edda9b8097057596b2f0312f525') in 0.022738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Walls_Tri.mat
+  artifactKey: Guid(c5757f4b2f24d4c479fac5c4581ecf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Walls_Tri.mat using Guid(c5757f4b2f24d4c479fac5c4581ecf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f3e1ff6fa4f1797348798e7022b592') in 0.018138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Trim_Tri.mat
+  artifactKey: Guid(9e6f4d58a9258e743aa35c0f9f13719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Trim_Tri.mat using Guid(9e6f4d58a9258e743aa35c0f9f13719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761e6451e03c0a2ae4e7cd152403ae17') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Walls.mat
+  artifactKey: Guid(3b094b502399b6d47a8d0acee91c7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Walls.mat using Guid(3b094b502399b6d47a8d0acee91c7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f616812c6b07c5c4aa52356781d40af') in 0.022258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Leaf.mat
+  artifactKey: Guid(87e1a0feea64942869f5ef0f9250073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Leaf.mat using Guid(87e1a0feea64942869f5ef0f9250073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5710e589777466562d3ba024798e0c18') in 0.018869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Floors.mat
+  artifactKey: Guid(6b8851c2f19d5ff4f8603a4c4eb4834d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Floors.mat using Guid(6b8851c2f19d5ff4f8603a4c4eb4834d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af8659cf5d8d465a000a77337a9eb2c') in 0.021457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Floors_Tri.mat
+  artifactKey: Guid(c38c84b83eefa364b9899305d180374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_User_Floors_Tri.mat using Guid(c38c84b83eefa364b9899305d180374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff38a262667eafc763dd065b2bf4594a') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Floors_Tri.mat
+  artifactKey: Guid(ba1d7e9b3e418ac4b9cfe5bc7a338de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutMaterials/Blockout_Theme_6_Floors_Tri.mat using Guid(ba1d7e9b3e418ac4b9cfe5bc7a338de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413284eb282f2358da2fbe99a68c8a12') in 0.021485 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
